@@ -29,5 +29,24 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="onClickModify" />
+    
+    <EditText 
+        android:id="@+id/txtText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/btnSave"
+        android:text="Save to a file"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSaveFile" />
+    
+    <Button
+        android:id="@+id/btnLoad"
+        android:text="Load from file"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLoadFile" />
 
 </LinearLayout>
